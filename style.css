@@ -1,11 +1,11 @@
 body {
-  background-color: #b45309;
+   background-color: rgb(100, 113, 113);
   margin: 0;
   padding: 0;
 }
 footer,
 .header {
-  background-color: rgb(100, 113, 113);
+
   text-align: center;
 }
 .main {
@@ -21,27 +21,39 @@ footer,
 }
 
 .logs {
-  width: 25%;
+  width: 20%;
   height: 500px;
 }
 .player {
-  width: 25%;
+  width: 20%;
   height: 500px;
 }
 .chess-board {
   
-  width: 400px;
-  height: 400px;
-  background: #000;
-  align-items: baseline;
+  width: 320px;
+  height: 320px;
 }
 
-@media (max-width: 500px) {
+.square{
+  width: 40px;
+  height: 40px;
+}
+.beige {
+  background-color: rgb(110, 110,98);
+}
+.brown {
+  background-color: rgb(169, 43, 43);
+}
+
+/* @media (max-width: 500px) {
  .main{
   display: flex;
   flex-direction: column;
+  overflow: auto;
  }
  .player ,.logs{
-  height: 40px;
+  width: 500px;
+  height: 90px;
+  overflow-y: auto;
  }
-}
+} */
