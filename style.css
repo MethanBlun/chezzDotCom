@@ -1,0 +1,32 @@
+body {
+  background-color: #b45309;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  height: 100%;
+}
+.main div {
+  border: 2px black solid;
+}
+
+.logs {
+  width: 25%;
+  height: 500px;
+}
+.player {
+  width: 25%;
+  height: 500px;
+
+}
+.chess-board {
+  width: 400px;
+  height: 400px;
+  position: ;
+  background: #000;
+}
