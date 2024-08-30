@@ -36,9 +36,23 @@ function createBoard() {
   startPieces.forEach((startPiece) => {
     const square = document.createElement('div');
     square.classList.add("square");
-    square.classList.add("beige");
+   
+       square.classList.add("beige");
+   
     chessBoard.append(square);
+
   });
 }
+
+
+function cleanup(string){
+  reg = /[+-]/
+  return string.replace(reg,'')
+  
+}
+
+console.log(cleanup('hello world +'))
+
+
 
 createBoard()
