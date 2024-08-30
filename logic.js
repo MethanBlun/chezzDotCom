@@ -46,12 +46,13 @@ function createBoard() {
 
 
 function cleanup(string){
-  reg = /[+-]/
-  return string.replace(reg,'')
+
   
+    reg = /\d+e+\d/
+    return string.match(reg)?'yes'   : 'noo'
 }
 
-console.log(cleanup('hello world +'))
+console.log(cleanup('hello i am bill gout 110 '))
 
 
 
